@@ -1,0 +1,46 @@
+body{
+background:white;
+margin:0;
+padding:0;
+}
+.logotext {
+ margin:0;
+ padding:0;
+ float:right;
+ padding-top:20px;
+}
+.logo{
+ float:left;
+ padding-top:20px;
+}
+.header{
+ height:200px;
+ background:url('../img/bear27.jpg') repeat-x;
+}
+.topmenu{
+ display:flex;
+ width:100%;
+} 
+.topmenu a{
+ flex:1;
+ display:block;
+ background:olive;
+ color:orange;
+ text-decoration:none;
+ text-align:center;
+ padding:10px;
+ border-right:1px dotted orange;
+}
+.topmenu a:hover{
+ background:gold;
+ color:black;
+}
+.footer {
+ padding-top:100px;
+ padding-bottom:100px;
+ text-align:center;
+ background:grey;
+}
+.footer a {
+ color:white;
+}
